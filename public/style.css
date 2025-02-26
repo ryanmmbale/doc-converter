@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #222;
+    color: #fff;
+}
+
+/* Heading */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+/* Dark Mode Form */
+body.dark-mode form {
+    background: #333;
+}
+
+/* Input & Select */
+input[type="file"], select {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    transition: background 0.3s, border 0.3s;
+}
+
+/* Dark Mode Input */
+body.dark-mode input, 
+body.dark-mode select {
+    background: #444;
+    border: 1px solid #666;
+    color: #fff;
+}
+
+/* Button */
+button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Dark Mode Button */
+body.dark-mode button {
+    background: #1e90ff;
+}
+
+button:hover {
+    background: #0f68c0;
+}
+
+/* Message */
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #954aff;
+   
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.theme-toggle:hover {
+    background: #ab8fe7;
+}
+
+/* Dark Mode Toggle */
+body.dark-mode .theme-toggle {
+    background: #954aff;
+    color: #333;
+}
+
+body.dark-mode .theme-toggle:hover {
+    background: #ab8fe7;
+}
